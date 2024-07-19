@@ -51,7 +51,7 @@ Bucket Sort:
 Extract Top K Elements:
     Iterate through the buckets in descending order of frequency and collect the top k elements.
  */
-class Solution {
+class Sol {
     public int[] topKFrequent(int[] nums, int k) {
         // Step 1: Initialize a bucket array where index represents frequency
         List<Integer>[] Bucket = new List[nums.length + 1];
